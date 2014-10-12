@@ -1,4 +1,4 @@
-DX-locahlost
+DX-localhost
 ============
 
 Display a notice when working on a localhost site clone

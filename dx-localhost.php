@@ -54,8 +54,8 @@ function dx_localhost_load_textdomain() {
  * Check if the current server is localhost
  */
 function dx_is_localhost() {
-    if ( $_SERVER['SERVER_NAME'] === 'wpse.dev' ||
-         $_SERVER['SERVER_ADDR'] === '127.0.0.1' ) {
+    $local = apply_filters( 'dx_localhost', array( 'localhost', '127.0.0.1' ) );
+    if ( in_array( $_SERVER['SERVER_NAME'], $local ) ) {
          return true;
     }
          

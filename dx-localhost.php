@@ -54,8 +54,9 @@ function dx_localhost_load_textdomain() {
  * Check if the current server is localhost
  */
 function dx_is_localhost() {
-    $local = apply_filters( 'dx_localhost', array( 'localhost', '127.0.0.1' ) );
-    if ( in_array( $_SERVER['SERVER_NAME'], $local ) ) {
+    $dx_localhost_name = apply_filters( 'dx_localhost_name', array( 'localhost' ) );
+    $dx_localhost_addr = apply_filters( 'dx_localhost_addr', array( '127.0.0.1' ) );
+    if ( in_array( $_SERVER['SERVER_NAME'], $dx_localhost_name ) || in_array( $_SERVER['SERVER_ADDR'], $dx_localhost_addr ) ) {
          return true;
     }
          

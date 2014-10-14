@@ -1,5 +1,5 @@
 === DX localhost ===
-Contributors: nofearinc, devrix
+Contributors: nofearinc, devrix, hofmannsven
 Tags: plugin, localhost, development, production, notice
 Requires at least: 3.1
 Tested up to: 4.0

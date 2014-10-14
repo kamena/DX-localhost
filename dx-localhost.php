@@ -41,13 +41,21 @@ function dx_localhost_display() {
         ));
     }
 }
- 
+
+/**
+ * Load plugin text domain
+ */
+add_action( 'plugins_loaded', 'dx_localhost_load_textdomain' );
+function dx_localhost_load_textdomain() {
+    load_plugin_textdomain( 'dxloc', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+
 /**
  * Check if the current server is localhost
  */
 function dx_is_localhost() {
-    if ( $_SERVER['SERVER_NAME'] === 'localhost' || 
-         $_SERVER['SERVER_ADDR'] === '127.0.0.1' ) {
+    $local = apply_filters( 'dx_localhost', array( 'localhost', '127.0.0.1' ) );
+    if ( in_array( $_SERVER['SERVER_NAME'], $local ) ) {
          return true;
     }
          

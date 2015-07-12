@@ -2,8 +2,8 @@
 Contributors: nofearinc, devrix, hofmannsven
 Tags: plugin, localhost, development, production, notice
 Requires at least: 3.1
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv2 or later
 
 Display a yellow notice box when you're working on localhost
@@ -24,7 +24,25 @@ Super helpful whenever you're cloning a production website with virtual hosts us
 
 Upload the plugin to your blog and activate it. It would work as is.
 
+== Frequently Asked Questions ==
+
+1. How do you change the environment name? 
+*You can change it by entering your desired environment name in the Dev Environment Name input field, Save the changes and you're done! 
+
 == Changelog ==
+= 1.1 =
+* Display a notice when working on a localhost site clone.
+* Added a toolbar button that would redirect you to the DX Localhost Settings
+* Enable or disable the toolbar button and/or the notice line.
+* Added color picker for the toolbar button and/or notice line.
+* You can change the environment name with any name you want!
+
 
 = 1.0 =
-* Initial commit
+* Display a notice when working on a localhost site clone.
+
+== Upgrade Notice ==
+
+= 1.1 =
+* Upgrade to enjoy more awesome features!
+

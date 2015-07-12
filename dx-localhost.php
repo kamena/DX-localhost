@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: DX Localhost
+ * Plugin Name: DX localhost
  * Plugin URI: https://wordpress.org/plugins/dx-localhost/
- * Description: Display a yellow notice box when you're working on localhost
+ * Description: Display a notice or a toolbar label when working on localhost copy of a production website
  * Version: 1.2
  * Author: DevriX
- * Author URI: http://devwp.eu/
+ * Author URI: http://devrix.com/
  * Text Domain: dx_loc
  * Domain Path: /languages
  * GitHub Plugin URI: https://github.com/mpeshev/DX-localhost

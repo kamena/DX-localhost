@@ -1,6 +1,8 @@
 DX-localhost
 ============
 
+Exists on https://github.com/DevriX/DX-localhost
+
 Display a notice when working on a localhost site clone.
 
 Activate the plugin and see a yellow notice bar that you're working on localhost.

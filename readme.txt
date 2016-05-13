@@ -1,25 +1,24 @@
 === DX localhost ===
-Contributors: nofearinc, devrix, hofmannsven
-Tags: plugin, localhost, development, production, notice, debugging, staging, testing
+Contributors: nofearinc, devrix, hofmannsven, metodiew
+Tags: plugin, localhost, development, production, notice, toolbar, staging
 Requires at least: 3.1
-Tested up to: 4.2.2
-Stable tag: 1.2
+Tested up to: 4.5
+Stable tag: 1.0
 License: GPLv2 or later
 
-Display a color notice box when you're working on localhost or a staging server.
+Display a yellow notice box when you're working on localhost
 
 == Description ==
 
-Display a notice or a toolbar label when working on a localhost site clone.
+Display a notice when working on a localhost site clone.
 
-Activate the plugin and see a yellow notice bar indicating that you're working on localhost. There are other options available for fine tuning the bar, and changing its colors as well.
+Activate the plugin and see a yellow notice bar indicating that you're working on localhost.
 
 Super helpful whenever you're cloning a production website with virtual hosts using the same domain name, and are not sure which site are you editing. Visible both in the admin area, and the frontend to all site visitors.
 
 == Screenshots ==
 
 1. Sample admin notice
-2. Settings page for your notices
 
 == Installation ==
 
@@ -31,6 +30,13 @@ Upload the plugin to your blog and activate it. It would work as is.
 *You can change it by entering your desired environment name in the Dev Environment Name input field, Save the changes and you're done! 
 
 == Changelog ==
+= 1.3 =
+* Fix the issue with notice line when the user is not logged in
+* Update the internal logic and add some small code improvements
+
+= 1.2 =
+* Screenshots and docs
+
 = 1.1 =
 * Display a notice when working on a localhost site clone.
 * Added a toolbar button that would redirect you to the DX Localhost Settings
@@ -38,14 +44,7 @@ Upload the plugin to your blog and activate it. It would work as is.
 * Added color picker for the toolbar button and/or notice line.
 * You can change the environment name with any name you want!
 
-= 1.2 =
-* Screenshots and docs
 
 = 1.0 =
 * Display a notice when working on a localhost site clone.
-
-== Upgrade Notice ==
-
-= 1.2 =
-* Upgrade to enjoy more awesome features!
 

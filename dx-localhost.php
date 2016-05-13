@@ -4,8 +4,8 @@
  * Plugin URI: https://wordpress.org/plugins/dx-localhost/
  * Description: Display a notice box when you're working on localhost or a staging server
  * Version: 1.3
- * Author: nofearinc
- * Author URI: http://devwp.eu/
+ * Author: devrix
+ * Author URI: http://devrix.com/
  * Text Domain: dx_loc
  * Domain Path: /languages
  * GitHub Plugin URI: https://github.com/mpeshev/DX-localhost
@@ -13,7 +13,7 @@
  */
  
 /**
- Copyright 2016 mpeshev (email : mpeshev AT devrix DOT com)
+ Copyright 2016 mpeshev (email : contact AT devrix DOT com)
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License, version 2, as
  published by the Free Software Foundation.

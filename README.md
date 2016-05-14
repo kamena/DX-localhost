@@ -8,8 +8,8 @@ Activate the plugin and see a yellow notice bar indicating that you're working o
 Super helpful whenever you're cloning a production website with virtual hosts using the same domain name, and are not sure which site are you editing. Visible both in the admin area, and the frontend to all site visitors.
 
 ## Screenshots
-![](https://github.com/DevriX/DX-localhost/blob/master/screenshot-1.png)
-![](https://github.com/DevriX/DX-localhost/blob/master/screenshot-2.png)
+![](https://github.com/DevriX/DX-localhost/blob/master/assets/wporg-assets/screenshot-1.png)
+![](https://github.com/DevriX/DX-localhost/blob/master/assets/wporg-assets/screenshot-2.png)
 
 ## Installation
 
